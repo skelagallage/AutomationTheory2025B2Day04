@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/UCSC/May2025/AutomationTheory2025B2Day04">
+        <classes>
+            <class name="com.ucsc.automationcc.testngex.DataProviderEx">
+                <methods>
+                    <include name="displayDetails"/>
+                </methods>
+            </class>
+            <class name="com.ucsc.automationcc.testngex.DependsOnEx">
+                <methods>
+                    <include name="verifyDisplayUsername"/>
+                    <include name="verifyLogin"/>
+                    <include name="verifyFollowingMenu"/>
+                </methods>
+            </class>
+            <class name="com.ucsc.automationcc.testngex.ExecutionOrder">
+                <methods>
+                    <include name="myTest"/>
+                    <include name="myTest02"/>
+                </methods>
+            </class>
+            <class name="com.ucsc.automationcc.testngex.TestNGPriority">
+                <methods>
+                    <include name="priorityA"/>
+                    <include name="priorityB"/>
+                    <include name="priorityC"/>
+                    <include name="priorityD"/>
+                    <include name="noPriority"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

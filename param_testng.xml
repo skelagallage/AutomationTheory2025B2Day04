@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/UCSC/May2025/AutomationTheory2025B2Day04">
+        <parameter name="browserName" value="chrome"></parameter>
+        <classes>
+            <class name="com.ucsc.automationcc.testngex.ParamEx">
+                <methods>
+                    <include name="displayDetails"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
